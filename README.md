@@ -25,4 +25,4 @@ Here is the description of all the variables :
    12. count                           number of total rentals
    
 ## Solution Checker
-solution_checker.xlsx to generate score (RMSLE) of predictions. This is an excel sheet where its provided with the timestamp and predictions should have to submitted in the count column.
+Use solution_checker.xlsx to generate score (RMSLE) of predictions. This is an excel sheet where its provided with the timestamp and predictions should have to submitted in the count column.
