@@ -3,26 +3,26 @@ Bike sharing systems are a means of renting bicycles where the process of obtain
 
 ## Problem Statement
 In this project, I have combined historical usage patterns with weather data in order to forecast hourly bike rental demand.
-### Data
+#### Data
 The following files are attached in this repository :
-1. train.csv : Use this dataset to train the model. This file contains all the weather related features as well as the target variable “count”. Train dataset is comprised of first 18 months.
-2. test.csv : Use the trained model to predict the count of total rentals for each hour during the next 6 months.
+    1. train.csv : Use this dataset to train the model. This file contains all the weather related features as well as the target variable “count”. Train dataset is comprised of first 18 months.
+    2. test.csv : Use the trained model to predict the count of total rentals for each hour during the next 6 months.
 
 ### Data Dictionary
 Here is the description of all the variables :
 #### Variable Definition
-    1. datetime hourly - date + timestamp
-    2. season - Type of season (1 = spring, 2 = summer, 3 = fall, 4 = winter)
-    3. holiday - whether the day is considered a holiday
-    4. workingday - whether the day is neither a weekend nor holiday
-    5. weather - weather
-    6. temp - temperature in Celsius
-    7. atemp - "feels like" temperature in Celsius
-    8. humidity - relative humidity
-    9. windspeed - wind speed
-    10. casual - number of non-registered user rentals initiated
-    11. registered - number of registered user rentals initiated
-    12. count - number of total rentals
+    1. datetime hourly       date + timestamp
+    2. season                Type of season (1 = spring, 2 = summer, 3 = fall, 4 = winter)
+    3. holiday               whether the day is considered a holiday
+    4. workingday            whether the day is neither a weekend nor holiday
+    5. weather               weather
+    6. temp                  temperature in Celsius
+    7. atemp                 "feels like" temperature in Celsius
+    8. humidity              relative humidity
+    9. windspeed             wind speed
+    10. casual               number of non-registered user rentals initiated
+    11. registered           number of registered user rentals initiated
+    12. count                number of total rentals
    
 ## Solution Checker
 Use solution_checker.xlsx to generate score (RMSLE) of predictions. This is an excel sheet where its provided with the timestamp and predictions should have to submitted in the count column.
