@@ -11,7 +11,7 @@ The following files are attached in this repository :
 ### Data Dictionary
 Here is the description of all the variables :
 #### Variable Definition
-   1. datetime hourly                  date + timestamp 
+   1. datetime hourly                  date + timestamp
    2. season                           Type of season (1 = spring, 2 = summer, 3 = fall, 4 = winter)
    3. holiday                          whether the day is considered a holiday
    4. workingday                       whether the day is neither a weekend nor holiday
